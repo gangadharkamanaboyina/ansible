@@ -4,6 +4,6 @@
   tasks:
    - name: app directory
      ansible.builtin.file:
-       name: test
+       name: /tmp/text
        state: touch
        mode: u+x
