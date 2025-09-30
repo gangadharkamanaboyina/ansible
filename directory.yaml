@@ -6,9 +6,9 @@
      ansible.builtin.file:
        name: /app
        state: directory
-       mode: u+x
+       mode: 0644
    - name: creating file
      ansible.builtin.file:
        name: /tmp/text
        state: touch
-       mode: u+x
+       mode: 0644
