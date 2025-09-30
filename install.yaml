@@ -1,6 +1,6 @@
 - name: nginx installation
+  ansible.builtin.package:
   hosts: database
   tasks:
      - name: nginx
-       ansible.builtin.package:
        state: installed
