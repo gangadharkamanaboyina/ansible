@@ -1,5 +1,6 @@
 - name: Creating app directory
   hosts: database
+  become: yes
   tasks:
    - name: app directory
      ansible.builtin.file:
