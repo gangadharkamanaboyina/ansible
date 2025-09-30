@@ -1,0 +1,8 @@
+- name: Creating app directory
+  hosts: database
+  tasks:
+   - name: app directory
+     ansible.builtin.file:
+       name: /app
+       state: directory
+       mode: u+x
