@@ -1,0 +1,45 @@
+- name: "Gangadhar"
+  exp: "5 years"
+  company: "ABC"
+  skills:
+    - "Java"
+    - "Spring Boot"
+    - "Windows"
+    - "VMWare"
+    - "Shell"
+    - "Ansible"
+  address:
+    - townName: "MCL"
+      area: "XYZ street"
+      pincode: "535455"
+      type: "Perm"
+    
+    - townName: "MCL"
+      area: "XYZ street"
+      pincode: "566346"
+      type: "Temp"
+
+  lwd: "23-12-2022"
+
+- name: "Mani"
+  exp: "5 years"
+  company: "ABC"
+  skills:
+    - "Java"
+    - "Spring Boot"
+    - "Windows"
+    - "VMWare"
+    - "Shell"
+    - "Ansible"
+  address:
+    - townName: "MCL"
+      area: "XYZ street"
+      pincode: "535455"
+      type: "Perm"
+    
+    - townName: "MCL"
+      area: "XYZ street"
+      pincode: "566346"
+      type: "Temp"
+
+  lwd: "23-12-2042"
